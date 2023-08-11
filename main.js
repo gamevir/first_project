@@ -1,0 +1,8 @@
+let btn1 = document.querySelector('.price regular')
+let btn2 = document.querySelector('.price huge')
+let btn3 = document.querySelector('.price tiny')
+let btn4 = document.querySelector('.price special')
+btn1.addEventListener('click', switchTheme)
+btn2.addEventListener('click', switchTheme)
+btn3.addEventListener('click', switchTheme)
+btn4.addEventListener('click', switchTheme)
